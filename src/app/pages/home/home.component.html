@@ -12,11 +12,11 @@
         <mat-carousel
         timings="250ms ease-in"
         [autoplay]="true"
-        interval="5000"
-        color="accent"
+        interval="3000"
+        color="#26890d"
         maxWidth="auto"
         proportion="25"
-        slides="5"
+        slides="3"
         [loop]="true"
         [hideArrows]="false"
         [hideIndicators]="false"
@@ -37,25 +37,26 @@
 
 
 <section>
+    <h1 class="title-section-card">Notícias</h1>
     <div class="cards">
-        <div class="post">
+        <div class="post">            
             <mat-card class="example-card">
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"></div>
-                    <mat-card-title>Shiba Inu</mat-card-title>
-                    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                    <mat-card-title>Yanka Santos</mat-card-title>
+                    <mat-card-subtitle>Software Engineer</mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                <img mat-card-image src="https://i.ytimg.com/vi/oON48-6W9W4/maxresdefault.jpg" alt="frutas como laranja, romã e limão">
                 <mat-card-content>
-                    <p>
-                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                    bred for hunting.
-                    </p>
+                    <a href="https://nacoesunidas.org/fao-dicas-de-uma-alimentacao-saudavel-para-enfrentar-a-crise-da-covid-19/">
+                        FAO: dicas de uma alimentação saudável para enfrentar a crise da COVID-19 
+                    </a>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+                        <mat-icon>favorite</mat-icon>
+                      </button>
+                    <a mat-button href="https://nacoesunidas.org/fao-dicas-de-uma-alimentacao-saudavel-para-enfrentar-a-crise-da-covid-19/" target="_blank">Leia</a>
                 </mat-card-actions>
             </mat-card>
         </div>
@@ -63,20 +64,20 @@
             <mat-card class="example-card">
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"></div>
-                    <mat-card-title>Shiba Inu</mat-card-title>
-                    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                    <mat-card-title>Yanka Santos</mat-card-title>
+                    <mat-card-subtitle>Software Engineer</mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                <img mat-card-image href="https://prosaudelojas.com.br/por-que-voce-precisa-ter-uma-alimentacao-saudavel/" src="https://prosaudelojas.com.br/wp-content/uploads/2018/07/novaBlog.png" alt="foto com frutas e verduras">
                 <mat-card-content>
-                    <p>
-                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                    bred for hunting.
-                    </p>
+                    <a href="https://prosaudelojas.com.br/por-que-voce-precisa-ter-uma-alimentacao-saudavel/">
+                        Por que você PRECISA ter uma alimentação saudável? - ProSaúde
+                    </a>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+                        <mat-icon>favorite</mat-icon>
+                      </button>
+                    <a mat-button href="https://prosaudelojas.com.br/por-que-voce-precisa-ter-uma-alimentacao-saudavel/" target="_blank">Leia</a>
                 </mat-card-actions>
             </mat-card>
         </div>
@@ -84,20 +85,20 @@
             <mat-card class="example-card">
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"></div>
-                    <mat-card-title>Shiba Inu</mat-card-title>
-                    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                    <mat-card-title>Yanka Santos</mat-card-title>
+                    <mat-card-subtitle>Software Engineer</mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                <img mat-card-image src="https://saudenaempresa.sesirs.org.br/wp-content/uploads/2020/03/iStock-944483450-1170x781.jpg" alt="Photo of a Shiba Inu">
                 <mat-card-content>
-                    <p>
-                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                    bred for hunting.
-                    </p>
+                    <a href="https://saudenaempresa.sesirs.org.br/alimentacao-saudavel-em-tempos-de-pandemia/">
+                        Alimentação saudável em tempos de pandemia
+                    </a>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+                        <mat-icon>favorite</mat-icon>
+                      </button>
+                    <a mat-button href="https://saudenaempresa.sesirs.org.br/alimentacao-saudavel-em-tempos-de-pandemia/" target="_blank">Leia</a>
                 </mat-card-actions>
             </mat-card>
         </div>
@@ -106,8 +107,13 @@
 
 <section>
     <div class="video">
-        <mat-video title="My Tutorial Title" [autoplay]="true" [preload]="true" [fullscreen]="true" [download]="false" color="accent" spinner="spin" poster="image.jpg">
+        <!-- <mat-video title="My Tutorial Title" [autoplay]="true" [preload]="true" [fullscreen]="true" [download]="false" color="accent" spinner="spin" poster="image.jpg">
             <source matVideoSource src="https://www.youtube.com/watch?v=ENeDgF-EwFw" type="video/mp4">
         </mat-video>
+        <video autoplay="true" preload="true" fullscreen="true" download="false" color="#26890d" src="https://www.youtube.com/watch?v=ENeDgF-EwFw"></video> -->
+
+      
+        <iframe width="748" height="421" src="https://www.youtube.com/embed/ENeDgF-EwFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+        
     </div>
 </section>

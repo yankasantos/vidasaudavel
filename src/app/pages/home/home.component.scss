@@ -1,14 +1,54 @@
+
 mat-toolbar-row ::ng-deep {
     background-color: #000000;
     color: #26890d;
 
 }
 
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 25px;
+}
+.post{
+    padding-right: 10px;
+}
+
+mat-card-content > a ::ng-deep{
+    color: #000000;
+}
+mat-card-content :hover ::ng-deep{
+    color: #26890d;
+}
+
+mat-card-actions > a ::ng-deep{
+    background-color: #26890d;
+    color: black;
+}
+mat-card-actions > button ::ng-deep{
+    color: #26890d;
+}
 .example-card {
     max-width: 400px;
 }
 
 .example-header-image {
-background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+background-image: url('https://s.gravatar.com/avatar/f77d0ab6eca99cddb6baf2bc3c5168a3?s=80');
 background-size: cover;
+}
+.title-section-card{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: #26890d;
+    
+}
+.video{
+    width: auto;
+    display: flex;
+    justify-content: center;
 }

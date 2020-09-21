@@ -10,7 +10,9 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule} from '@angular/material/icon';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { MatCardModule} from '@angular/material/card';
-import { MatVideoModule } from 'mat-video';
+// import { MatVideoModule } from 'mat-video';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -26,7 +28,8 @@ import { MatVideoModule } from 'mat-video';
     MatIconModule,
     MatCarouselModule,
     MatCardModule,
-    MatVideoModule
+    // MatVideoModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
